@@ -11,4 +11,7 @@ public class Post
 
     public int FieldGroupId { get; set; }
     public FieldGroup FieldGroup { get; set; }
+
+    public int PostTypeId { get; set; }
+    public PostType Post { get; set; }
 }
