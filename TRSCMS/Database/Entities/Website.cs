@@ -1,6 +1,6 @@
 namespace TRSCMS.Database.Entities;
 
-public class Site
+public class Website
 {
     public int Id { get; set; }
     public string Name { get; set; }

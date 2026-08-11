@@ -8,4 +8,7 @@ public class NavigationMenuItem
 
     public int FieldGroupId { get; set; }
     public FieldGroup FieldGroup { get; set; }
+
+    public int NavigationMenuId { get; set; }
+    public NavigationMenu NavigationMenu { get; set; }
 }
