@@ -8,5 +8,6 @@ public class Post
     public DateTime CreatedAt { get; set; }
     public DateTime? UpdatedAt { get; set; }
 
-    public List<Field> Fields { get; set; } = new();
+    public int FieldGroupId { get; set; }
+    public FieldGroup FieldGroup { get; set; }
 }

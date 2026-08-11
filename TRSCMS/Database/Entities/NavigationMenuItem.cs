@@ -6,6 +6,6 @@ public class NavigationMenuItem
     public string Title { get; set; }
     public string Url { get; set; }
 
-    public List<Field> Fields { get; set; } = new();
-
+    public int FieldGroupId { get; set; }
+    public FieldGroup FieldGroup { get; set; }
 }
