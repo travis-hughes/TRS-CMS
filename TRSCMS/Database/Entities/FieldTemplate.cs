@@ -1,15 +1,15 @@
 namespace TRSCMS.Database.Entities;
 
 /// <summary>
-/// A groups Fields Together.
+/// Groups Fields Together.
 /// </summary>
-public class FieldGroup
+public class FieldTemplate
 {
     public int Id { get; set; }
     public string Name { get; set; }
 
 
-    public List<Field> Fields { get; set; }
+    public List<FieldTemplateItem> Items { get; set; }
 
 
     /// <summary>

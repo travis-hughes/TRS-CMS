@@ -2,12 +2,15 @@ using System.Runtime.CompilerServices;
 
 namespace TRSCMS.Database.Entities;
 
-public class PostType
+/// <summary>
+/// DataSet are lists of data containg fields.
+/// </summary>
+public class DataSet
 {
     public int Id { get; set; }
     public string Name { get; set; }
 
-    public List<Post> Posts { get; set; } = new();
+    public List<DataSetItem> DataSetItems { get; set; } = new();
 
 
     public int WebsiteId { get; set; }
